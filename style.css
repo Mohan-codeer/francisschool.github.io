@@ -1,0 +1,28 @@
+.button-container {
+  display: flex;
+  justify-content: space-around; /* Space buttons evenly */
+  width: fit-content; /* Contain buttons within their width */
+  margin: 0 auto; /* Center the container horizontally */
+}
+
+.image-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  border: none; /* Remove default button border */
+  border-radius: 5px; /* Add rounded corners */
+  cursor: pointer; /* Indicate clickable button */
+}
+
+.image-button img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover; /* Resize image to fit while maintaining aspect ratio */
+  margin-bottom: 5px; /* Add spacing between image and text */
+}
+
+.image-button span {
+  font-weight: bold;
+}
